@@ -8,6 +8,7 @@ Homepage: https://github.com/netrunner-zeronet/c1-netrunner-zeronet-desktop-sett
 
 Package: c1-netrunner-zeronet-tor-settings
 Architecture: any
+Replaces: tor
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: netrunner tor specific settings
  This package contains settings that are specific to tor for Netrunner
