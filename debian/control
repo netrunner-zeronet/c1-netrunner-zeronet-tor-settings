@@ -1,12 +1,12 @@
-Source: c1-netrunner-zeronet-tor-settings
+Source: netrunner-zeronet-tor-settings
 Section: unknown
 Priority: optional
 Maintainer: Leszek Lesner <leszek@zevenos.com>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.8
-Homepage: https://github.com/netrunner-zeronet/c1-netrunner-zeronet-desktop-settings
+Homepage: https://github.com/netrunner-zeronet/netrunner-zeronet-desktop-settings
 
-Package: c1-netrunner-zeronet-tor-settings
+Package: netrunner-zeronet-tor-settings
 Architecture: any
 Replaces: tor
 Depends: ${shlibs:Depends}, ${misc:Depends}
